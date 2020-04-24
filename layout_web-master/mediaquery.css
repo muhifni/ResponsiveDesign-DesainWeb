@@ -1,0 +1,66 @@
+@media screen and (max-width: 960px){
+    #wrapper{
+        width: 93.75%;
+        margin: 25px auto;
+    }
+    div#header{
+        height: 80px;
+    }
+    div#header ul{
+        width: 100%;
+    }
+    div#header ul{
+        float:inherit;
+    }
+    div#header ul li{
+        
+        margin: 0;
+    }
+    div#header ul a{
+        padding: 15px;
+        font-size: 16px;
+        
+    }
+    .artikel{
+        width: 149%;
+    }
+    .artikel img {
+        max-width: 107%;
+        margin: 3px 0px 41px 2px;
+        min-width: 99%;
+        height: 0%;
+    }
+    .conteudo .continue-lendo:hover{
+        margin-left: 0;
+    }
+    #sidebar {
+        width: auto;
+        float: right;
+        padding: 4px;
+        text-align: center;
+        padding-bottom: 16px;
+    }
+    #daftar-artikel {
+        padding-top: 12px;
+    }
+    #sidebar ul {
+        margin-left : unset;
+    }
+}
+
+@media screen and (max-width: 460px){
+    div#menu ul a{
+        padding: 15px;
+        font-size: 14px;
+    }
+
+    #sidebar{
+        display: none;
+    }
+    .artikel{
+        margin:25px auto;
+    }
+    .artikel img{
+        margin: -5% 0 25px -5%;
+    }
+}
